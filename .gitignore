@@ -1,0 +1,22 @@
+# Игнорировать всё в корне
+/*
+
+# Но не игнорировать эти папки
+!/.gitignore
+!/mods/
+!/resourcepacks/
+
+# В папке mods игнорировать всё, кроме .jar и .zip
+/mods/*
+!/mods/*.jar
+!/mods/*.zip
+
+# В папке resourcepacks игнорировать всё, кроме .jar и .zip  
+/resourcepacks/*
+!/resourcepacks/*.jar
+!/resourcepacks/*.zip
+
+# Игнорировать служебные файлы
+.DS_Store
+Thumbs.db
+*.tmp
